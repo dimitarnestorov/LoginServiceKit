@@ -7,45 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31A00DA31D9BBEF900E880A6 /* LoginServiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A00DA21D9BBEEE00E880A6 /* LoginServiceKit.framework */; };
-		31A00DA41D9BBEF900E880A6 /* LoginServiceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 31A00DA21D9BBEEE00E880A6 /* LoginServiceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FA2FEEF31CB3F79000F3A456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FEEF21CB3F79000F3A456 /* AppDelegate.swift */; };
+		6E3FB70724430E5400A343FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3FB70624430E5400A343FE /* AppDelegate.m */; };
+		6E3FB70A24430F7A00A343FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3FB70924430F7A00A343FE /* main.m */; };
+		6E3FB7102443103600A343FE /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E3FB70524430E5400A343FE /* AppDelegate.h */; };
+		6E3FB72224436DC300A343FE /* DNLoginServiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3FB71E24436DB200A343FE /* DNLoginServiceKit.framework */; };
+		6E3FB72324436DC300A343FE /* DNLoginServiceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3FB71E24436DB200A343FE /* DNLoginServiceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FA2FEEF51CB3F79000F3A456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2FEEF41CB3F79000F3A456 /* Assets.xcassets */; };
 		FA2FEEF81CB3F79000F3A456 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2FEEF61CB3F79000F3A456 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		31A00DA11D9BBEEE00E880A6 /* PBXContainerItemProxy */ = {
+		6E3FB71D24436DB200A343FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 31A00D9D1D9BBEEE00E880A6 /* LoginServiceKit.xcodeproj */;
+			containerPortal = 6E3FB71824436DB200A343FE /* DNLoginServiceKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = FA2FEEDB1CB3F76D00F3A456;
-			remoteInfo = LoginServiceKit;
+			remoteInfo = DNLoginServiceKit;
 		};
-		31A00DA51D9BBEF900E880A6 /* PBXContainerItemProxy */ = {
+		6E3FB71F24436DB200A343FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 31A00D9D1D9BBEEE00E880A6 /* LoginServiceKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = FA2FEEDA1CB3F76D00F3A456;
-			remoteInfo = LoginServiceKit;
-		};
-		FA24DEC32410DED300CDF92E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 31A00D9D1D9BBEEE00E880A6 /* LoginServiceKit.xcodeproj */;
+			containerPortal = 6E3FB71824436DB200A343FE /* DNLoginServiceKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = FA3C3E54230F12F500C0A6CA;
-			remoteInfo = LoginServiceKitTests;
+			remoteInfo = DNLoginServiceKitTests;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		31A00DA71D9BBEF900E880A6 /* Embed Frameworks */ = {
+		6E3FB70E2443102300A343FE /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				31A00DA41D9BBEF900E880A6 /* LoginServiceKit.framework in Embed Frameworks */,
+				6E3FB72324436DC300A343FE /* DNLoginServiceKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,9 +48,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		31A00D9D1D9BBEEE00E880A6 /* LoginServiceKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LoginServiceKit.xcodeproj; path = ../Lib/LoginServiceKit.xcodeproj; sourceTree = "<group>"; };
+		6E3FB70524430E5400A343FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E3FB70624430E5400A343FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E3FB70924430F7A00A343FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E3FB71324436D8300A343FE /* DNLoginServiceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DNLoginServiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3FB71824436DB200A343FE /* DNLoginServiceKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DNLoginServiceKit.xcodeproj; path = ../Lib/DNLoginServiceKit.xcodeproj; sourceTree = "<group>"; };
 		FA2FEEEF1CB3F79000F3A456 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA2FEEF21CB3F79000F3A456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA2FEEF41CB3F79000F3A456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA2FEEF71CB3F79000F3A456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		FA2FEEF91CB3F79000F3A456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,18 +64,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31A00DA31D9BBEF900E880A6 /* LoginServiceKit.framework in Frameworks */,
+				6E3FB72224436DC300A343FE /* DNLoginServiceKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		31A00D9E1D9BBEEE00E880A6 /* Products */ = {
+		6E3FB71224436D8300A343FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				31A00DA21D9BBEEE00E880A6 /* LoginServiceKit.framework */,
-				FA24DEC42410DED300CDF92E /* LoginServiceKitTests.xctest */,
+				6E3FB71324436D8300A343FE /* DNLoginServiceKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E3FB71924436DB200A343FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E3FB71E24436DB200A343FE /* DNLoginServiceKit.framework */,
+				6E3FB72024436DB200A343FE /* DNLoginServiceKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,9 +91,10 @@
 		FA2FEEE61CB3F79000F3A456 = {
 			isa = PBXGroup;
 			children = (
+				6E3FB71824436DB200A343FE /* DNLoginServiceKit.xcodeproj */,
 				FA2FEEF11CB3F79000F3A456 /* Example */,
 				FA2FEEF01CB3F79000F3A456 /* Products */,
-				31A00D9D1D9BBEEE00E880A6 /* LoginServiceKit.xcodeproj */,
+				6E3FB71224436D8300A343FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,30 +109,43 @@
 		FA2FEEF11CB3F79000F3A456 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				FA2FEEF21CB3F79000F3A456 /* AppDelegate.swift */,
 				FA2FEEF41CB3F79000F3A456 /* Assets.xcassets */,
 				FA2FEEF61CB3F79000F3A456 /* MainMenu.xib */,
 				FA2FEEF91CB3F79000F3A456 /* Info.plist */,
+				6E3FB70524430E5400A343FE /* AppDelegate.h */,
+				6E3FB70624430E5400A343FE /* AppDelegate.m */,
+				6E3FB70924430F7A00A343FE /* main.m */,
 			);
 			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		6E3FB70F2443103100A343FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3FB7102443103600A343FE /* AppDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		FA2FEEEE1CB3F79000F3A456 /* Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA2FEEFC1CB3F79000F3A456 /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
+				6E3FB70F2443103100A343FE /* Headers */,
 				FA2FEEEB1CB3F79000F3A456 /* Sources */,
 				FA2FEEEC1CB3F79000F3A456 /* Frameworks */,
 				FA2FEEED1CB3F79000F3A456 /* Resources */,
-				31A00DA71D9BBEF900E880A6 /* Embed Frameworks */,
+				6E3FB70E2443102300A343FE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				31A00DA61D9BBEF900E880A6 /* PBXTargetDependency */,
 			);
 			name = Example;
 			productName = Example;
@@ -144,7 +164,7 @@
 				TargetAttributes = {
 					FA2FEEEE1CB3F79000F3A456 = {
 						CreatedOnToolsVersion = 7.3;
-						LastSwiftMigration = 1020;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -161,8 +181,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 31A00D9E1D9BBEEE00E880A6 /* Products */;
-					ProjectRef = 31A00D9D1D9BBEEE00E880A6 /* LoginServiceKit.xcodeproj */;
+					ProductGroup = 6E3FB71924436DB200A343FE /* Products */;
+					ProjectRef = 6E3FB71824436DB200A343FE /* DNLoginServiceKit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -173,18 +193,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		31A00DA21D9BBEEE00E880A6 /* LoginServiceKit.framework */ = {
+		6E3FB71E24436DB200A343FE /* DNLoginServiceKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = LoginServiceKit.framework;
-			remoteRef = 31A00DA11D9BBEEE00E880A6 /* PBXContainerItemProxy */;
+			path = DNLoginServiceKit.framework;
+			remoteRef = 6E3FB71D24436DB200A343FE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		FA24DEC42410DED300CDF92E /* LoginServiceKitTests.xctest */ = {
+		6E3FB72024436DB200A343FE /* DNLoginServiceKitTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = LoginServiceKitTests.xctest;
-			remoteRef = FA24DEC32410DED300CDF92E /* PBXContainerItemProxy */;
+			path = DNLoginServiceKitTests.xctest;
+			remoteRef = 6E3FB71F24436DB200A343FE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -206,19 +226,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA2FEEF31CB3F79000F3A456 /* AppDelegate.swift in Sources */,
+				6E3FB70724430E5400A343FE /* AppDelegate.m in Sources */,
+				6E3FB70A24430F7A00A343FE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		31A00DA61D9BBEF900E880A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LoginServiceKit;
-			targetProxy = 31A00DA51D9BBEF900E880A6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FA2FEEF61CB3F79000F3A456 /* MainMenu.xib */ = {
@@ -280,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -330,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -340,15 +353,16 @@
 		FA2FEEFD1CB3F79000F3A456 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.clipy-app.Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitarnestorov.DNLoginServiceKitExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -356,14 +370,14 @@
 		FA2FEEFE1CB3F79000F3A456 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.clipy-app.Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitarnestorov.DNLoginServiceKitExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

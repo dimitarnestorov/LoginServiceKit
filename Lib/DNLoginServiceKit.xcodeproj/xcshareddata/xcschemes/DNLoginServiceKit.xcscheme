@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FA2FEEDA1CB3F76D00F3A456"
-               BuildableName = "LoginServiceKit.framework"
-               BlueprintName = "LoginServiceKit"
-               ReferencedContainer = "container:LoginServiceKit.xcodeproj">
+               BuildableName = "DNLoginServiceKit.framework"
+               BlueprintName = "DNLoginServiceKit"
+               ReferencedContainer = "container:DNLoginServiceKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -31,9 +31,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA2FEEDA1CB3F76D00F3A456"
-            BuildableName = "LoginServiceKit.framework"
-            BlueprintName = "LoginServiceKit"
-            ReferencedContainer = "container:LoginServiceKit.xcodeproj">
+            BuildableName = "DNLoginServiceKit.framework"
+            BlueprintName = "DNLoginServiceKit"
+            ReferencedContainer = "container:DNLoginServiceKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -42,9 +42,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FA3C3E53230F12F500C0A6CA"
-               BuildableName = "LoginServiceKitTests.xctest"
-               BlueprintName = "LoginServiceKitTests"
-               ReferencedContainer = "container:LoginServiceKit.xcodeproj">
+               BuildableName = "DNLoginServiceKitTests.xctest"
+               BlueprintName = "DNLoginServiceKitTests"
+               ReferencedContainer = "container:DNLoginServiceKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -63,9 +63,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA2FEEDA1CB3F76D00F3A456"
-            BuildableName = "LoginServiceKit.framework"
-            BlueprintName = "LoginServiceKit"
-            ReferencedContainer = "container:LoginServiceKit.xcodeproj">
+            BuildableName = "DNLoginServiceKit.framework"
+            BlueprintName = "DNLoginServiceKit"
+            ReferencedContainer = "container:DNLoginServiceKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -79,9 +79,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA2FEEDA1CB3F76D00F3A456"
-            BuildableName = "LoginServiceKit.framework"
-            BlueprintName = "LoginServiceKit"
-            ReferencedContainer = "container:LoginServiceKit.xcodeproj">
+            BuildableName = "DNLoginServiceKit.framework"
+            BlueprintName = "DNLoginServiceKit"
+            ReferencedContainer = "container:DNLoginServiceKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
