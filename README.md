@@ -4,6 +4,20 @@
 
 Easily manage login items in macOS.
 
+## Installation
+
+### Carthage
+
+```
+github "dimitarnestorov/DNLoginServiceKit"
+```
+
+### CocoaPods
+
+```ruby
+pod 'DNLoginServiceKit', :git => 'https://github.com/dimitarnestorov/DNLoginServiceKit.git'
+```
+
 ## Example
 #### Check if login item exists
 ```objc
