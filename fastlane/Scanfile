@@ -1,4 +1,0 @@
-workspace("DNLoginServiceKit.xcworkspace")
-scheme("DNLoginServiceKit")
-clean(true)
-skip_build(true)
